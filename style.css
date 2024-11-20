@@ -1,0 +1,208 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(244, 242, 242);
+    color: #333;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://www.traveltoindia.org/images/share-images/north-india-tour-package.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #e65c00;
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-top: -30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefits h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.benefit-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.benefit-item {
+    text-align: center;
+    flex: 1;
+}
+
+.benefit-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 1rem;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.destinations h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.destination-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.destination-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.destination-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destination-item h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.destination-item p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.destination-item .cta-btn {
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-item {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.testimonial-item cite {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Lead Capture Section */
+.lead-capture {
+    background-color: #ff6600;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+.lead-capture h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.lead-capture form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.lead-capture input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.lead-capture button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.lead-capture button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
